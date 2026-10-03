@@ -1,27 +1,144 @@
-# 💫 About Me:
-I am a pre-final year Computer Science and Engineering student at KLE Institute of Technology, Hubballi, Karnataka, with a strong interest in Full Stack Development and Artificial Intelligence. I enjoy building practical software solutions that solve real-world problems and continuously improving my programming and problem-solving skills using languages such as Python, Java, JavaScript, and C.<br><br>I have worked on projects like Assistive Technology for Visually Impaired Students, which focuses on using AI to help visually impaired individuals interact with their environment, and Grain Vision, a system designed to detect foreign contaminants in grains using image processing techniques. I also gained industry experience as a Full Stack Development Intern at Athreya Technologies, and my goal is to grow as a Software Engineer while advancing toward becoming an AI Engineer.
+<div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,55:161B22,100:1F6FEB&height=120&section=header" width="100%" alt="" />
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/krishnapawar05) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/krishnapawar05) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/krishnapawar05) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/krishnapawar05) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:krishnagpawar2021@gmail.com) 
+# Hi, I'm Krishna Pawar 👋
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=plastic&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=plastic&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=plastic&logo=windows-terminal&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=plastic&logo=firebase) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=plastic&logo=vercel&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=plastic&logo=oracle&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=plastic&logo=bootstrap&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=plastic&logo=express&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=plastic&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=plastic&logo=flask&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=plastic&logo=node.js&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=plastic&logo=opencv&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=plastic&logo=spring&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=plastic&logo=WordPress&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=plastic&logo=apache-tomcat&logoColor=black) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=plastic&logo=apache&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=plastic&logo=firebase&logoColor=ffcd34) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=plastic&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=plastic&logo=sqlite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=plastic&logo=supabase&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=plastic&logo=figma&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=krishnapawar05&theme=radical&hide_border=true&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=krishnapawar05&theme=radical&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=krishnapawar05&theme=radical&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
+### Full-Stack Development · Software Engineering · AI / ML
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=krishnapawar05&theme=radical&no-frame=true&no-bg=true&margin-w=4)
+I build full-stack web applications and AI-powered tools, practise DSA in Java, and like turning real problems into software people can actually use.<br>
+Computer Science undergraduate at KLE Institute of Technology, Hubballi.
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<a href="https://www.linkedin.com/in/krishnapawar05"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=58A6FF" alt="LinkedIn" /></a>
+<a href="https://github.com/krishnapawar05"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF" alt="GitHub" /></a>
+<a href="mailto:krishnagpawar.in@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=58A6FF" alt="Email" /></a>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=krishnapawar05&limit=5&theme=dark&combine_all_yearly_contributions=true)
+</div>
+
+<br>
+
+## 👨‍💻 Developer Snapshot
+
+| | |
+|---|---|
+| 🎓 **Education** | B.E. Computer Science & Engineering, KLE Institute of Technology, Hubballi (2024 – 2027) · CGPA 8.54 |
+| 💻 **Focus** | Full-Stack Web Development · AI / Machine Learning |
+| 🎯 **Target Roles** | Software Engineer · Full-Stack Developer · AI/ML Engineer |
+| 🧠 **Primary Language** | Java |
+| 🔤 **Languages** | Java · JavaScript · Python · SQL · C |
+| 🌐 **Frontend** | HTML5 · CSS3 · React.js · Responsive Web Design |
+| ⚙️ **Backend** | Node.js · Express.js · JSP · Flask · REST APIs |
+| 🗄️ **Databases** | MySQL · MongoDB |
+| 🤖 **AI / Machine Learning** | TensorFlow · YOLOv8 · OpenCV · Computer Vision · OCR · Image Processing |
+| 📚 **Currently Improving** | Data Structures & Algorithms in Java |
+| 📍 **Based in** | Hubballi, Karnataka, India |
+
+<br>
+
+## 🏆 Achievements
+
+### 🥇 1st Place — NAIN 2.0 Graduation & Demo Day, IIIT Dharwad
+
+**AI-Powered Assistive Technology for Visually Impaired Individuals (SmartVision)**
+
+<img src="https://img.shields.io/badge/Funded%20by-Government%20of%20Karnataka-1F6FEB?style=flat-square" alt="Funded by the Government of Karnataka" /> <img src="https://img.shields.io/badge/Patent-Pending-30363D?style=flat-square" alt="Patent Pending" />
+
+- **What I built:** an AI-powered assistive prototype that helps visually impaired users read text and identify nearby objects.
+- **How it works:** OCR for both digital and handwritten text, Text-to-Speech output, and YOLOv8 for real-time object detection.
+- **Design goals:** privacy, reliability and usability.
+- **Program:** New Age Innovation Network (NAIN 2.0), Government of Karnataka · Sep 2025 – Mar 2026
+
+`Tech: OCR · Text-to-Speech · YOLOv8 · Computer Vision`
 
 ---
-[![](https://visitcount.itsvg.in/api?id=krishnapawar05&icon=1&color=13)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+### 🏆 2nd Runner-Up — HackArena 2K26
+
+Jain College of Engineering & Technology
+
+<details>
+<summary><b>Certifications</b></summary>
+<br>
+
+- **Build Real World AI Applications with Gemini and Imagen** (Machine Learning & AI) — Google Cloud Skills Boost, 2025
+- **Problem Solving Through Programming in C** — NPTEL, 2026
+- **TCS iON Career Edge – Young Professional** — Tata Consultancy Services iON, 2025
+
+</details>
+
+<br>
+
+## 💼 Experience
+
+**Full Stack Development Intern** · Athreya Technologies, Hubballi, Karnataka<br>
+<sub>January 2024 – April 2024</sub>
+
+- Developed a full-stack web application using Java, JSP, HTML, CSS and MySQL.
+- Implemented user authentication, cost estimation, dashboard and business insights modules.
+- Built responsive UI components and debugged cross-browser compatibility issues in CSS and JavaScript.
+- Used Git and GitHub for version control and collaborated with other developers on the application.
+
+**Full Stack Development & Data Structures Trainee** · Apna College – Sigma 10, Online<br>
+<sub>2025 – Present · ongoing training program</sub>
+
+- Java, Data Structures & Algorithms, HTML, CSS, JavaScript, React, Node.js, Express.js and MongoDB.
+- Practise DSA and problem solving through coding exercises and programming challenges.
+
+<br>
+
+## 🛠️ Tech Stack
+
+| | |
+|---|---|
+| **Languages** | <img src="https://skillicons.dev/icons?i=java,js,py,c&theme=dark" height="36" alt="Java, JavaScript, Python, C" /><br><sub>Java · JavaScript · Python · SQL · C</sub> |
+| **Frontend** | <img src="https://skillicons.dev/icons?i=html,css,react&theme=dark" height="36" alt="HTML5, CSS3, React" /><br><sub>HTML5 · CSS3 · React.js · Responsive Web Design</sub> |
+| **Backend** | <img src="https://skillicons.dev/icons?i=nodejs,express,flask&theme=dark" height="36" alt="Node.js, Express.js, Flask" /><br><sub>Node.js · Express.js · JSP · Flask · REST APIs · API Integration</sub> |
+| **Databases** | <img src="https://skillicons.dev/icons?i=mysql,mongodb&theme=dark" height="36" alt="MySQL, MongoDB" /><br><sub>MySQL · MongoDB</sub> |
+| **AI / Machine Learning** | <img src="https://skillicons.dev/icons?i=tensorflow,opencv&theme=dark" height="36" alt="TensorFlow, OpenCV" /><br><sub>TensorFlow · YOLOv8 · OpenCV · Computer Vision · OCR · Image Processing</sub> |
+| **Tools** | <img src="https://skillicons.dev/icons?i=git,github,vscode,eclipse&theme=dark" height="36" alt="Git, GitHub, VS Code, Eclipse" /><br><sub>Git · GitHub · VS Code · Eclipse</sub> |
+
+<br>
+
+## 🧠 Problem Solving
+
+- Practising Data Structures & Algorithms in Java.
+- Comfortable with Object-Oriented Programming and debugging.
+- Working through coding exercises and programming challenges regularly.
+
+<br>
+
+## 🌱 Currently
+
+- Strengthening DSA and problem solving in Java
+- Building full-stack applications with React, Node.js, Express.js and MongoDB
+- Building AI-powered applications with Python, TensorFlow and OpenCV
+- Completing my B.E. in Computer Science (graduating 2027)
+- Preparing for Software Engineer, Full-Stack Developer and AI/ML Engineer roles
+
+<br>
+
+## 📈 GitHub Activity
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=krishnapawar05&hide_border=true&background=0D1117&ring=1F6FEB&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" width="100%" style="max-width: 520px;" alt="Krishna's GitHub contribution streak" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=krishnapawar05&bg_color=0D1117&color=C9D1D9&line=1F6FEB&point=58A6FF&area=true&area_color=1F6FEB&hide_border=true&radius=8" width="100%" alt="Krishna's GitHub contribution graph" />
+
+</div>
+
+<br>
+
+## 🤝 Let's Connect
+
+I'm open to conversations about software engineering, full-stack and AI/ML roles, internships and interesting projects.
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/krishnapawar05"><img src="https://img.shields.io/badge/LinkedIn-krishnapawar05-0D1117?style=for-the-badge&logo=linkedin&logoColor=58A6FF" alt="LinkedIn: krishnapawar05" /></a>
+<a href="https://github.com/krishnapawar05"><img src="https://img.shields.io/badge/GitHub-krishnapawar05-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF" alt="GitHub: krishnapawar05" /></a>
+<a href="mailto:krishnagpawar.in@gmail.com"><img src="https://img.shields.io/badge/Email-krishnagpawar.in%40gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=58A6FF" alt="Email: krishnagpawar.in@gmail.com" /></a>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F6FEB,45:161B22,100:0D1117&height=100&section=footer" width="100%" alt="" />
+
+</div>
