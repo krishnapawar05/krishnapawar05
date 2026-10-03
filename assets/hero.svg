@@ -1,179 +1,338 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-labelledby="t d">
   <title id="t">Krishna Pawar</title>
-  <desc id="d">Full-Stack Development, Software Engineering, AI / ML. 1st Place, NAIN 2.0.</desc>
+  <desc id="d">Full-Stack Development, Software Engineering, AI / ML. 1st Place, NAIN 2.0, under a Government of Karnataka initiative. Languages: Java, JavaScript, Python, SQL, C.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0A0D14"/>
-      <stop offset="1" stop-color="#0D1117"/>
+      <stop offset="0" stop-color="#070A11"/>
+      <stop offset=".6" stop-color="#0B0F17"/>
+      <stop offset="1" stop-color="#0D1020"/>
     </linearGradient>
-    <radialGradient id="glowBlue" cx="900" cy="235" r="330" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#1F6FEB" stop-opacity=".34"/>
+    <radialGradient id="gBlue" cx="895" cy="240" r="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1F6FEB" stop-opacity=".42"/>
+      <stop offset=".55" stop-color="#1F6FEB" stop-opacity=".1"/>
       <stop offset="1" stop-color="#1F6FEB" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowPurple" cx="1080" cy="430" r="280" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".22"/>
+    <radialGradient id="gPurple" cx="1120" cy="470" r="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".3"/>
       <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowLeft" cx="60" cy="0" r="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#1F6FEB" stop-opacity=".12"/>
+    <radialGradient id="gLeft" cx="40" cy="-20" r="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1F6FEB" stop-opacity=".16"/>
       <stop offset="1" stop-color="#1F6FEB" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="gName" cx="230" cy="250" r="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
     <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#58A6FF"/>
-      <stop offset=".5" stop-color="#30363D"/>
+      <stop offset="0" stop-color="#79B8FF"/>
+      <stop offset=".35" stop-color="#30363D"/>
+      <stop offset=".65" stop-color="#30363D"/>
       <stop offset="1" stop-color="#A78BFA"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5" dur="16s" repeatCount="indefinite"/>
     </linearGradient>
     <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#58A6FF"/>
-      <stop offset="1" stop-color="#A78BFA"/>
+      <stop offset=".55" stop-color="#8E9BFF"/>
+      <stop offset="1" stop-color="#B794F6"/>
     </linearGradient>
-    <linearGradient id="fadeGrid" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
-      <stop offset=".55" stop-color="#fff" stop-opacity=".25"/>
-      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    <linearGradient id="whiteGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#C9D6E8"/>
     </linearGradient>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#C9D1D9" fill-opacity=".16"/>
+    <linearGradient id="awardFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1F6FEB" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity=".14"/>
+    </linearGradient>
+    <linearGradient id="awardStroke" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#79B8FF"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity=".7"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFE08A"/>
+      <stop offset="1" stop-color="#D9A013"/>
+    </linearGradient>
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity=".0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".9"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#C9D1D9" fill-opacity=".15"/>
     </pattern>
-    <mask id="gridMask"><rect width="1200" height="460" fill="url(#fadeGrid)"/></mask>
-    <clipPath id="card"><rect width="1200" height="460" rx="24"/></clipPath>
+    <pattern id="iso" width="1" height="1" patternUnits="userSpaceOnUse" patternTransform="matrix(35 17.5 -35 17.5 895 0)">
+      <path d="M0 0H1M0 0V1" stroke="#79B8FF" stroke-opacity=".5" stroke-width=".03" fill="none"/>
+    </pattern>
+    <mask id="dotMask"><rect width="1200" height="500" fill="url(#fadeL)"/></mask>
+    <filter id="blur40" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="38"/></filter>
+    <filter id="blur14" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="blur6" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="blur3" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3"/></filter>
+    <mask id="floorMask"><ellipse cx="895" cy="412" rx="300" ry="95" fill="#fff" filter="url(#blur40)"/></mask>
+    <clipPath id="card"><rect width="1200" height="500" rx="26"/></clipPath>
 
-    <!-- plate faces -->
     <linearGradient id="uiTop" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#79B8FF" stop-opacity=".55"/>
-      <stop offset="1" stop-color="#1F6FEB" stop-opacity=".35"/>
+      <stop offset="0" stop-color="#8CC4FF" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#2F7BF0" stop-opacity=".42"/>
     </linearGradient>
     <linearGradient id="apiTop" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1F6FEB" stop-opacity=".5"/>
-      <stop offset="1" stop-color="#1F4FB8" stop-opacity=".4"/>
+      <stop offset="0" stop-color="#2F6FE0" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#3B4FD0" stop-opacity=".46"/>
     </linearGradient>
     <linearGradient id="dbTop" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".5"/>
-      <stop offset="1" stop-color="#6D3FD9" stop-opacity=".4"/>
+      <stop offset="0" stop-color="#7C5CF0" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#9A5CF6" stop-opacity=".5"/>
     </linearGradient>
-    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="14"/>
-    </filter>
+    <linearGradient id="pillar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A5D0FF" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity=".25"/>
+    </linearGradient>
   </defs>
 
   <g clip-path="url(#card)">
-    <rect width="1200" height="460" fill="url(#bg)"/>
-    <rect width="1200" height="460" fill="url(#dots)" mask="url(#gridMask)"/>
-    <rect width="1200" height="460" fill="url(#glowLeft)"/>
-    <rect width="1200" height="460" fill="url(#glowBlue)"/>
-    <rect width="1200" height="460" fill="url(#glowPurple)"/>
+    <!-- ============ background ============ -->
+    <rect width="1200" height="500" fill="url(#bg)"/>
+    <rect width="1200" height="500" fill="url(#dots)" mask="url(#dotMask)"/>
+    <rect width="1200" height="500" fill="url(#gLeft)"/>
+    <rect width="1200" height="500" fill="url(#gName)"/>
+    <rect width="1200" height="500" fill="url(#gBlue)"/>
+    <rect width="1200" height="500" fill="url(#gPurple)"/>
+    <rect width="1200" height="500" fill="url(#iso)" mask="url(#floorMask)"/>
+    <!-- glass highlight on the top edge -->
+    <rect x="120" y="0" width="520" height="1.5" fill="#79B8FF" fill-opacity=".55" filter="url(#blur3)"/>
 
-    <!-- ============ LEFT: identity ============ -->
-    <circle cx="70" cy="86" r="5" fill="#3FB950">
-      <animate attributeName="opacity" values="1;.35;1" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
-    <text x="86" y="91" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" letter-spacing="2.2" fill="#8B949E">CSE UNDERGRAD · KLE INSTITUTE OF TECHNOLOGY</text>
-
-    <text font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="98" letter-spacing="-2.5">
-      <tspan x="60" y="192" fill="#F0F6FC">Krishna</tspan>
-      <tspan x="60" y="286" fill="url(#nameGrad)">Pawar</tspan>
-    </text>
-
-    <rect x="64" y="312" width="44" height="3" rx="1.5" fill="url(#nameGrad)"/>
-    <text x="64" y="348" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="500" letter-spacing=".4" fill="#C9D1D9">Full-Stack Development  ·  Software Engineering  ·  AI / ML</text>
-
-    <!-- chips -->
-    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1" text-anchor="middle">
-      <rect x="64" y="378" width="214" height="32" rx="16" fill="#1F6FEB" fill-opacity=".22" stroke="#58A6FF" stroke-opacity=".8"/>
-      <path d="M86 386.5l2.3 4.9 5.3.7-3.9 3.7 1 5.3-4.7-2.6-4.7 2.6 1-5.3-3.9-3.7 5.3-.7z" fill="#79B8FF"/>
-      <text x="182" y="398.5" fill="#E6EDF3" font-weight="600">1ST PLACE · NAIN 2.0</text>
-
-      <rect x="290" y="378" width="62" height="32" rx="16" fill="#161B22" fill-opacity=".8" stroke="#30363D"/>
-      <text x="321" y="398.5" fill="#C9D1D9">JAVA</text>
-
-      <rect x="362" y="378" width="72" height="32" rx="16" fill="#161B22" fill-opacity=".8" stroke="#30363D"/>
-      <text x="398" y="398.5" fill="#C9D1D9">REACT</text>
-
-      <rect x="444" y="378" width="88" height="32" rx="16" fill="#161B22" fill-opacity=".8" stroke="#30363D"/>
-      <text x="488" y="398.5" fill="#C9D1D9">NODE.JS</text>
-
-      <rect x="542" y="378" width="114" height="32" rx="16" fill="#161B22" fill-opacity=".8" stroke="#30363D"/>
-      <text x="599" y="398.5" fill="#C9D1D9">TENSORFLOW</text>
+    <!-- particles -->
+    <g fill="#C9E1FF">
+      <circle cx="706" cy="64" r="1.4"><animate attributeName="opacity" values=".2;.9;.2" dur="4s" repeatCount="indefinite"/></circle>
+      <circle cx="1142" cy="150" r="1.2"><animate attributeName="opacity" values=".8;.2;.8" dur="5s" repeatCount="indefinite"/></circle>
+      <circle cx="668" cy="250" r="1.2"><animate attributeName="opacity" values=".3;1;.3" dur="6s" repeatCount="indefinite"/></circle>
+      <circle cx="1168" cy="52" r="1.5"><animate attributeName="opacity" values=".9;.3;.9" dur="4.5s" repeatCount="indefinite"/></circle>
+      <circle cx="770" cy="118" r="1" opacity=".5"/>
+      <circle cx="560" cy="48" r="1" opacity=".4"/>
+      <circle cx="1010" cy="462" r="1.2" opacity=".5"/>
+      <circle cx="716" cy="402" r="1" opacity=".45"/>
     </g>
 
+    <!-- ============ LEFT: identity ============ -->
+    <circle cx="70" cy="66" r="9" fill="#3FB950" fill-opacity=".25">
+      <animate attributeName="r" values="5;11;5" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" values=".45;0;.45" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="70" cy="66" r="4.5" fill="#3FB950"/>
+    <text x="88" y="71" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" letter-spacing="2.4" fill="#8B949E">CSE UNDERGRAD <tspan fill="#484F58">//</tspan> KLE INSTITUTE OF TECHNOLOGY <tspan fill="#484F58">//</tspan> 2027</text>
+
+    <g font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="100" letter-spacing="-2.8">
+      <text x="60" y="264" fill="url(#nameGrad)" opacity=".5" filter="url(#blur14)">Pawar</text>
+      <text x="60" y="172" fill="url(#whiteGrad)">Krishna</text>
+      <text x="60" y="264" fill="url(#nameGrad)">Pawar</text>
+    </g>
+
+    <rect x="64" y="290" width="48" height="3" rx="1.5" fill="url(#nameGrad)"/>
+    <text x="64" y="326" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="500" letter-spacing=".3" fill="#D5DDE8">Full-Stack Development <tspan fill="#58A6FF">/</tspan> Software Engineering <tspan fill="#A78BFA">/</tspan> AI · ML</text>
+
+    <!-- award -->
+    <rect x="64" y="352" width="360" height="58" rx="15" fill="#0D1117" fill-opacity=".6"/>
+    <rect x="64" y="352" width="360" height="58" rx="15" fill="url(#awardFill)" stroke="url(#awardStroke)" stroke-width="1.2"/>
+    <circle cx="96" cy="381" r="19" fill="#E3B341" fill-opacity=".35" filter="url(#blur6)"/>
+    <circle cx="96" cy="381" r="16" fill="url(#gold)"/>
+    <circle cx="96" cy="381" r="12.5" fill="none" stroke="#7A5200" stroke-opacity=".45" stroke-width="1"/>
+    <text x="96" y="387.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="#5A3B00">1</text>
+    <text x="126" y="377" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="1.4" fill="#F0F6FC">1ST PLACE  ·  NAIN 2.0</text>
+    <text x="126" y="397" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="1.3" fill="#A9BBD1">UNDER GOVT. OF KARNATAKA INITIATIVE</text>
+
+    <rect x="436" y="366" width="146" height="30" rx="15" fill="#161B22" fill-opacity=".7" stroke="#8B5CF6" stroke-opacity=".7"/>
+    <circle cx="454" cy="381" r="3" fill="#A78BFA"/>
+    <text x="466" y="385" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1.2" fill="#D6C9FF">PATENT PENDING</text>
+
+    <!-- languages -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
+      <text x="64" y="451.5" font-size="10.5" letter-spacing="2" fill="#6E7681">LANGUAGES</text>
+      <g fill="#161B22" fill-opacity=".85" stroke="#30363D">
+        <rect x="156" y="432" width="78" height="30" rx="15"/>
+        <rect x="242" y="432" width="122" height="30" rx="15"/>
+        <rect x="372" y="432" width="92" height="30" rx="15"/>
+        <rect x="472" y="432" width="70" height="30" rx="15"/>
+        <rect x="550" y="432" width="54" height="30" rx="15"/>
+      </g>
+      <circle cx="173" cy="447" r="4.5" fill="#B07219"/>
+      <circle cx="259" cy="447" r="4.5" fill="#F1E05A"/>
+      <circle cx="389" cy="447" r="4.5" fill="#4B8BBE"/>
+      <circle cx="489" cy="447" r="4.5" fill="#E38C00"/>
+      <circle cx="567" cy="447" r="4.5" fill="#8B949E"/>
+      <g font-size="12.5" fill="#E6EDF3">
+        <text x="185" y="451.5">Java</text>
+        <text x="271" y="451.5">JavaScript</text>
+        <text x="401" y="451.5">Python</text>
+        <text x="501" y="451.5">SQL</text>
+        <text x="579" y="451.5">C</text>
+      </g>
+    </g>
+
+    <text x="1172" y="478" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1" fill="#586374">github.com/krishnapawar05</text>
+
     <!-- ============ RIGHT: the stack ============ -->
-    <ellipse cx="900" cy="418" rx="150" ry="16" fill="#1F6FEB" fill-opacity=".35" filter="url(#soft)"/>
+    <ellipse cx="895" cy="446" rx="170" ry="16" fill="#3B82F6" fill-opacity=".5" filter="url(#blur14)"/>
+
+    <!-- floating code card -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 6; 0 0" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1; .45 0 .55 1"/>
+      <rect x="690" y="150" width="62" height="44" rx="11" fill="#161B22" fill-opacity=".85" stroke="#58A6FF" stroke-opacity=".55"/>
+      <text x="721" y="178" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" fill="#79B8FF">&lt;/&gt;</text>
+    </g>
+    <!-- floating DSA tree card -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="6.5s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1; .45 0 .55 1"/>
+      <rect x="1090" y="394" width="62" height="48" rx="11" fill="#161B22" fill-opacity=".85" stroke="#A78BFA" stroke-opacity=".55"/>
+      <path d="M1121 407L1109 420M1121 407L1133 420M1109 420L1102 432M1109 420L1116 432M1133 420L1140 432" stroke="#A78BFA" stroke-opacity=".8" stroke-width="1.3"/>
+      <g fill="#C4B5FD"><circle cx="1121" cy="407" r="3.6" fill="#F0F6FC"/><circle cx="1109" cy="420" r="3.2"/><circle cx="1133" cy="420" r="3.2"/><circle cx="1102" cy="432" r="2.8"/><circle cx="1116" cy="432" r="2.8"/><circle cx="1140" cy="432" r="2.8"/></g>
+    </g>
 
     <g>
       <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7; 0 0" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1; .45 0 .55 1"/>
 
-      <!-- DATABASE plate (cy 337) -->
-      <polygon points="760,337 900,407 900,423 760,353" fill="#4C2BA8" fill-opacity=".75" stroke="#A78BFA" stroke-opacity=".55"/>
-      <polygon points="1040,337 900,407 900,423 1040,353" fill="#6D3FD9" fill-opacity=".6" stroke="#A78BFA" stroke-opacity=".55"/>
-      <polygon points="900,267 1040,337 900,407 760,337" fill="url(#dbTop)" stroke="#A78BFA" stroke-opacity=".9"/>
+      <!-- ===== DATABASE plate (cy 347) ===== -->
+      <polygon points="755,347 895,417 895,435 755,365" fill="#3F2596" fill-opacity=".85" stroke="#A78BFA" stroke-opacity=".6"/>
+      <polygon points="1035,347 895,417 895,435 1035,365" fill="#6A3FE0" fill-opacity=".7" stroke="#A78BFA" stroke-opacity=".6"/>
+      <polygon points="895,277 1035,347 895,417 755,347" fill="url(#dbTop)" stroke="#C4B5FD"/>
+      <g transform="matrix(140 70 -140 70 895 277)">
+        <rect x=".05" y=".05" width=".9" height=".9" fill="none" stroke="#C4B5FD" stroke-opacity=".35" stroke-width=".006"/>
+        <!-- table in the front corner -->
+        <rect x=".58" y=".58" width=".34" height=".34" rx=".02" fill="#0D1117" fill-opacity=".55" stroke="#DDD6FE" stroke-opacity=".8" stroke-width=".008"/>
+        <rect x=".58" y=".58" width=".34" height=".085" rx=".02" fill="#C4B5FD" fill-opacity=".7"/>
+        <path d="M.58 .75H.92M.58 .835H.92M.693 .58V.92M.806 .58V.92" stroke="#DDD6FE" stroke-opacity=".6" stroke-width=".006"/>
+        <!-- rows in the side bands -->
+        <g fill="#DDD6FE" fill-opacity=".45">
+          <rect x=".1" y=".6" width=".12" height=".05" rx=".01"/><rect x=".25" y=".6" width=".2" height=".05" rx=".01"/>
+          <rect x=".1" y=".7" width=".12" height=".05" rx=".01"/><rect x=".25" y=".7" width=".14" height=".05" rx=".01"/>
+          <rect x=".1" y=".8" width=".12" height=".05" rx=".01"/><rect x=".25" y=".8" width=".2" height=".05" rx=".01"/>
+          <rect x=".6" y=".1" width=".05" height=".12" rx=".01"/><rect x=".6" y=".25" width=".05" height=".2" rx=".01"/>
+          <rect x=".7" y=".1" width=".05" height=".12" rx=".01"/><rect x=".7" y=".25" width=".05" height=".14" rx=".01"/>
+          <rect x=".8" y=".1" width=".05" height=".12" rx=".01"/><rect x=".8" y=".25" width=".05" height=".2" rx=".01"/>
+        </g>
+      </g>
+      <g fill="#C4B5FD"><circle cx="769" cy="363" r="1.8"><animate attributeName="opacity" values="1;.25;1" dur="1.9s" repeatCount="indefinite"/></circle><circle cx="779" cy="368" r="1.8"/><circle cx="789" cy="373" r="1.8" opacity=".4"/></g>
+      <path d="M1021 363l-7 3.5M1007 370l-7 3.5M993 377l-7 3.5" stroke="#DDD6FE" stroke-opacity=".7" stroke-width="1.6" stroke-linecap="round"/>
 
-      <!-- BACKEND plate (cy 271) -->
-      <polygon points="760,271 900,341 900,357 760,287" fill="#143A8C" fill-opacity=".8" stroke="#58A6FF" stroke-opacity=".5"/>
-      <polygon points="1040,271 900,341 900,357 1040,287" fill="#1F4FB8" fill-opacity=".65" stroke="#58A6FF" stroke-opacity=".5"/>
-      <polygon points="900,201 1040,271 900,341 760,271" fill="url(#apiTop)" stroke="#58A6FF" stroke-opacity=".85"/>
-
-      <!-- FRONTEND plate (cy 205) -->
-      <polygon points="760,205 900,275 900,291 760,221" fill="#1B4E9E" fill-opacity=".85" stroke="#79B8FF" stroke-opacity=".6"/>
-      <polygon points="1040,205 900,275 900,291 1040,221" fill="#2B6AD6" fill-opacity=".7" stroke="#79B8FF" stroke-opacity=".6"/>
-      <polygon points="900,135 1040,205 900,275 760,205" fill="url(#uiTop)" stroke="#A5D0FF"/>
-
-      <!-- mini app window drawn on the top plate -->
-      <g transform="matrix(140 70 -140 70 900 135)">
-        <rect x=".1" y=".1" width=".8" height=".8" rx=".035" fill="#0D1117" fill-opacity=".72"/>
-        <rect x=".1" y=".1" width=".8" height=".13" rx=".035" fill="#58A6FF" fill-opacity=".45"/>
-        <circle cx=".16" cy=".165" r=".018" fill="#F0F6FC" fill-opacity=".8"/>
-        <circle cx=".215" cy=".165" r=".018" fill="#F0F6FC" fill-opacity=".5"/>
-        <circle cx=".27" cy=".165" r=".018" fill="#F0F6FC" fill-opacity=".3"/>
-        <rect x=".16" y=".3" width=".3" height=".24" rx=".02" fill="#58A6FF" fill-opacity=".75"/>
-        <rect x=".52" y=".3" width=".32" height=".06" rx=".02" fill="#F0F6FC" fill-opacity=".8"/>
-        <rect x=".52" y=".4" width=".24" height=".05" rx=".02" fill="#F0F6FC" fill-opacity=".35"/>
-        <rect x=".52" y=".48" width=".28" height=".05" rx=".02" fill="#F0F6FC" fill-opacity=".35"/>
-        <rect x=".16" y=".61" width=".2" height=".22" rx=".02" fill="#A78BFA" fill-opacity=".6"/>
-        <rect x=".4" y=".61" width=".2" height=".22" rx=".02" fill="#F0F6FC" fill-opacity=".16"/>
-        <rect x=".64" y=".61" width=".2" height=".22" rx=".02" fill="#F0F6FC" fill-opacity=".16"/>
+      <!-- light pillars: backend -> database -->
+      <g stroke="url(#pillar)" stroke-width="1.4" stroke-dasharray="2 5">
+        <path d="M755 289V347M895 359V417M1035 289V347"/>
       </g>
 
-      <!-- AI model above the stack -->
-      <g stroke="#A78BFA" stroke-opacity=".55" stroke-width="1.2">
-        <path d="M852 62L900 50M852 62L900 77M852 62L900 104M852 92L900 50M852 92L900 77M852 92L900 104M900 50L948 77M900 77L948 77M900 104L948 77"/>
+      <!-- ===== BACKEND plate (cy 271) ===== -->
+      <polygon points="755,271 895,341 895,359 755,289" fill="#12357F" fill-opacity=".88" stroke="#58A6FF" stroke-opacity=".6"/>
+      <polygon points="1035,271 895,341 895,359 1035,289" fill="#2450C0" fill-opacity=".72" stroke="#58A6FF" stroke-opacity=".6"/>
+      <polygon points="895,201 1035,271 895,341 755,271" fill="url(#apiTop)" stroke="#79B8FF"/>
+      <g transform="matrix(140 70 -140 70 895 201)">
+        <rect x=".05" y=".05" width=".9" height=".9" fill="none" stroke="#A5D0FF" stroke-opacity=".35" stroke-width=".006"/>
+        <!-- server block in the front corner -->
+        <g fill="#0D1117" fill-opacity=".55" stroke="#A5D0FF" stroke-opacity=".85" stroke-width=".008">
+          <rect x=".58" y=".58" width=".34" height=".09" rx=".02"/>
+          <rect x=".58" y=".705" width=".34" height=".09" rx=".02"/>
+          <rect x=".58" y=".83" width=".34" height=".09" rx=".02"/>
+        </g>
+        <g fill="#7EE787"><circle cx=".63" cy=".625" r=".016"/><circle cx=".63" cy=".75" r=".016"/></g>
+        <circle cx=".63" cy=".875" r=".016" fill="#79B8FF"/>
+        <path d="M.7 .625H.86M.7 .75H.8M.7 .875H.86" stroke="#A5D0FF" stroke-opacity=".7" stroke-width=".012" stroke-linecap="round"/>
+        <!-- request routes in the side bands -->
+        <g fill="none" stroke="#A5D0FF" stroke-opacity=".75" stroke-width=".009">
+          <path d="M.1 .62H.26V.76H.46M.1 .88H.34V.82"/>
+          <path d="M.62 .1V.26H.76V.46M.88 .1V.34H.82"/>
+        </g>
+        <g fill="#F0F6FC"><circle cx=".1" cy=".62" r=".016"/><circle cx=".46" cy=".76" r=".016"/><circle cx=".1" cy=".88" r=".016"/><circle cx=".62" cy=".1" r=".016"/><circle cx=".76" cy=".46" r=".016"/><circle cx=".88" cy=".1" r=".016"/></g>
       </g>
-      <g fill="#0D1117" stroke-width="2">
-        <circle cx="852" cy="62" r="6" stroke="#A78BFA"/>
-        <circle cx="852" cy="92" r="6" stroke="#A78BFA"/>
-        <circle cx="900" cy="50" r="6" stroke="#79B8FF"/>
-        <circle cx="900" cy="77" r="6" stroke="#79B8FF"/>
-        <circle cx="900" cy="104" r="6" stroke="#79B8FF"/>
-        <circle cx="948" cy="77" r="7" stroke="#F0F6FC" fill="#1F6FEB"/>
+      <g fill="#7EE787"><circle cx="769" cy="287" r="1.8"/><circle cx="779" cy="292" r="1.8"><animate attributeName="opacity" values="1;.2;1" dur="1.3s" repeatCount="indefinite"/></circle><circle cx="789" cy="297" r="1.8" fill="#79B8FF"/></g>
+      <path d="M1021 287l-7 3.5M1007 294l-7 3.5M993 301l-7 3.5" stroke="#A5D0FF" stroke-opacity=".75" stroke-width="1.6" stroke-linecap="round"/>
+
+      <!-- light pillars: frontend -> backend -->
+      <g stroke="url(#pillar)" stroke-width="1.4" stroke-dasharray="2 5">
+        <path d="M755 213V271M895 283V341M1035 213V271"/>
       </g>
-      <path d="M900 114V128" stroke="#79B8FF" stroke-opacity=".7" stroke-width="1.4" stroke-dasharray="3 4"/>
-      <circle cx="900" cy="114" r="2.6" fill="#F0F6FC">
-        <animate attributeName="cy" values="112;130" dur="1.8s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="1;0" dur="1.8s" repeatCount="indefinite"/>
+      <!-- data pulses travelling down the front pillar -->
+      <circle cx="895" r="2.6" fill="#F0F6FC">
+        <animate attributeName="cy" values="283;341" dur="1.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="1.6s" repeatCount="indefinite"/>
       </circle>
+      <circle cx="895" r="2.6" fill="#DDD6FE">
+        <animate attributeName="cy" values="359;417" dur="1.6s" begin=".8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="1.6s" begin=".8s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- ===== FRONTEND plate (cy 195) ===== -->
+      <polygon points="755,195 895,265 895,283 755,213" fill="#1A4FA6" fill-opacity=".9" stroke="#A5D0FF" stroke-opacity=".7"/>
+      <polygon points="1035,195 895,265 895,283 1035,213" fill="#3277E6" fill-opacity=".78" stroke="#A5D0FF" stroke-opacity=".7"/>
+      <polygon points="895,125 1035,195 895,265 755,195" fill="url(#uiTop)" stroke="#D2E7FF" stroke-width="1.3"/>
+      <g transform="matrix(140 70 -140 70 895 125)">
+        <rect x=".07" y=".07" width=".86" height=".86" rx=".035" fill="#0A0F1A" fill-opacity=".8" stroke="#A5D0FF" stroke-opacity=".5" stroke-width=".006"/>
+        <path d="M.07 .105a.035 .035 0 0 1 .035 -.035h.79a.035 .035 0 0 1 .035 .035v.085h-.86z" fill="#58A6FF" fill-opacity=".4"/>
+        <circle cx=".125" cy=".13" r=".018" fill="#FF7B72"/>
+        <circle cx=".18" cy=".13" r=".018" fill="#E3B341"/>
+        <circle cx=".235" cy=".13" r=".018" fill="#3FB950"/>
+        <rect x=".5" y=".105" width=".36" height=".05" rx=".025" fill="#F0F6FC" fill-opacity=".22"/>
+        <!-- sidebar -->
+        <rect x=".12" y=".25" width=".14" height=".62" rx=".02" fill="#F0F6FC" fill-opacity=".08"/>
+        <rect x=".145" y=".29" width=".09" height=".035" rx=".015" fill="#79B8FF"/>
+        <rect x=".145" y=".36" width=".09" height=".035" rx=".015" fill="#F0F6FC" fill-opacity=".35"/>
+        <rect x=".145" y=".43" width=".09" height=".035" rx=".015" fill="#F0F6FC" fill-opacity=".35"/>
+        <rect x=".145" y=".5" width=".09" height=".035" rx=".015" fill="#F0F6FC" fill-opacity=".35"/>
+        <!-- stat cards -->
+        <rect x=".31" y=".25" width=".17" height=".17" rx=".02" fill="#58A6FF" fill-opacity=".85"/>
+        <rect x=".51" y=".25" width=".17" height=".17" rx=".02" fill="#A78BFA" fill-opacity=".8"/>
+        <rect x=".71" y=".25" width=".17" height=".17" rx=".02" fill="#F0F6FC" fill-opacity=".2"/>
+        <!-- chart -->
+        <rect x=".31" y=".47" width=".57" height=".4" rx=".02" fill="#F0F6FC" fill-opacity=".07"/>
+        <g fill="#79B8FF">
+          <rect x=".36" y=".7" width=".05" height=".12" rx=".01" fill-opacity=".6"/>
+          <rect x=".44" y=".62" width=".05" height=".2" rx=".01" fill-opacity=".75"/>
+          <rect x=".52" y=".66" width=".05" height=".16" rx=".01" fill-opacity=".6"/>
+          <rect x=".6" y=".56" width=".05" height=".26" rx=".01" fill-opacity=".9"/>
+          <rect x=".68" y=".6" width=".05" height=".22" rx=".01" fill-opacity=".75"/>
+          <rect x=".76" y=".52" width=".05" height=".3" rx=".01" fill="#C4B5FD"/>
+        </g>
+      </g>
+      <g fill="#F0F6FC"><circle cx="769" cy="211" r="1.8"/><circle cx="779" cy="216" r="1.8" opacity=".5"/><circle cx="789" cy="221" r="1.8"><animate attributeName="opacity" values="1;.2;1" dur="2.3s" repeatCount="indefinite"/></circle></g>
+      <path d="M1021 211l-7 3.5M1007 218l-7 3.5M993 225l-7 3.5" stroke="#F0F6FC" stroke-opacity=".7" stroke-width="1.6" stroke-linecap="round"/>
+
+      <!-- ===== AI model above the stack ===== -->
+      <ellipse cx="895" cy="72" rx="70" ry="42" fill="#8B5CF6" fill-opacity=".28" filter="url(#blur14)"/>
+      <g stroke="#B9A6FF" stroke-opacity=".6" stroke-width="1.2">
+        <path d="M847 54L895 40M847 54L895 72M847 54L895 104M847 90L895 40M847 90L895 72M847 90L895 104M895 40L943 72M895 72L943 72M895 104L943 72"/>
+      </g>
+      <g stroke="#F0F6FC" stroke-width="1.6" stroke-dasharray="3 60" stroke-linecap="round" fill="none">
+        <path d="M847 54L895 72L943 72"><animate attributeName="stroke-dashoffset" values="63;0" dur="2.2s" repeatCount="indefinite"/></path>
+        <path d="M847 90L895 40L943 72"><animate attributeName="stroke-dashoffset" values="63;0" dur="2.2s" begin="1.1s" repeatCount="indefinite"/></path>
+      </g>
+      <g fill="#0B0F17" stroke-width="2">
+        <circle cx="847" cy="54" r="6.5" stroke="#B9A6FF"/>
+        <circle cx="847" cy="90" r="6.5" stroke="#B9A6FF"/>
+        <circle cx="895" cy="40" r="6.5" stroke="#8CC4FF"/>
+        <circle cx="895" cy="72" r="6.5" stroke="#8CC4FF"/>
+        <circle cx="895" cy="104" r="6.5" stroke="#8CC4FF"/>
+      </g>
+      <circle cx="943" cy="72" r="13" fill="#58A6FF" fill-opacity=".5" filter="url(#blur6)"/>
+      <circle cx="943" cy="72" r="8" fill="#2F81F7" stroke="#F0F6FC" stroke-width="2"/>
+      <path d="M895 111V125" stroke="#A5D0FF" stroke-opacity=".8" stroke-width="1.4" stroke-dasharray="2 4"/>
 
       <!-- labels -->
       <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
-        <g stroke="#8B949E" stroke-opacity=".7" stroke-width="1">
-          <path d="M957 77H1056"/>
-          <path d="M1042 213H1056"/>
-          <path d="M1042 279H1056"/>
-          <path d="M1042 345H1056"/>
+        <g stroke="#8B949E" stroke-opacity=".75" stroke-width="1">
+          <path d="M953 72H1040M1035 204H1040M1035 280H1040M1035 356H1040"/>
         </g>
-        <g font-size="11.5" letter-spacing="1.8" font-weight="600">
-          <text x="1066" y="75" fill="#C4B5FD">AI / ML</text>
-          <text x="1066" y="211" fill="#A5D0FF">FRONTEND</text>
-          <text x="1066" y="277" fill="#79B8FF">BACKEND</text>
-          <text x="1066" y="343" fill="#C4B5FD">DATABASE</text>
+        <g fill="#8B949E"><circle cx="1041" cy="72" r="2"/><circle cx="1041" cy="204" r="2"/><circle cx="1041" cy="280" r="2"/><circle cx="1041" cy="356" r="2"/></g>
+        <g font-size="12" letter-spacing="1.8" font-weight="700">
+          <text x="1051" y="70" fill="#D6C9FF">AI / ML</text>
+          <text x="1051" y="202" fill="#CFE5FF">FRONTEND</text>
+          <text x="1051" y="278" fill="#8CC4FF">BACKEND</text>
+          <text x="1051" y="354" fill="#D6C9FF">DATABASE</text>
         </g>
-        <g font-size="10.5" fill="#8B949E">
-          <text x="1066" y="91">TensorFlow</text>
-          <text x="1066" y="227">React.js</text>
-          <text x="1066" y="293">Node · Flask · JSP</text>
-          <text x="1066" y="359">MySQL · MongoDB</text>
+        <g font-size="10.5" fill="#9AA5B4">
+          <text x="1051" y="87">TensorFlow · YOLOv8</text>
+          <text x="1051" y="219">React · HTML · CSS</text>
+          <text x="1051" y="295">Node · Flask · JSP</text>
+          <text x="1051" y="371">MySQL · MongoDB</text>
         </g>
       </g>
     </g>
   </g>
 
-  <rect x=".75" y=".75" width="1198.5" height="458.5" rx="23.5" fill="none" stroke="url(#border)" stroke-width="1.5" stroke-opacity=".8"/>
+  <rect x=".75" y=".75" width="1198.5" height="498.5" rx="25.25" fill="none" stroke="url(#border)" stroke-width="1.5"/>
 </svg>
