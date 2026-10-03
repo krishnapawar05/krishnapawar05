@@ -23,7 +23,6 @@ I build full-stack web applications and AI-powered tools, practise DSA in Java, 
 | 🎓 **Education** | B.E. Computer Science & Engineering, KLE Institute of Technology, Hubballi (2024 – 2027) · CGPA 8.54 |
 | 💻 **Focus** | Full-Stack Web Development · AI / Machine Learning |
 | 🎯 **Target Roles** | Software Engineer · Full-Stack Developer · AI/ML Engineer |
-| 🧠 **Primary Language** | Java |
 | 🔤 **Languages** | Java · JavaScript · Python · SQL · C |
 | 🌐 **Frontend** | HTML5 · CSS3 · React.js · Responsive Web Design |
 | ⚙️ **Backend** | Node.js · Express.js · JSP · Flask · REST APIs |
