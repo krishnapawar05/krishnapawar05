@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-labelledby="t d">
   <title id="t">Krishna Pawar</title>
-  <desc id="d">Full-Stack Development, Software Engineering, AI / ML. 1st Place, NAIN 2.0, under a Government of Karnataka initiative. Languages: Java, JavaScript, Python, SQL, C.</desc>
+  <desc id="d">Full-Stack Development, Software Engineering, AI / ML. 1st Place, NAIN 2.0, initiated by the Government of Karnataka. Languages: Java, JavaScript, Python, SQL, C.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070A11"/>
@@ -131,18 +131,12 @@
     <text x="64" y="326" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="500" letter-spacing=".3" fill="#D5DDE8">Full-Stack Development <tspan fill="#58A6FF">/</tspan> Software Engineering <tspan fill="#A78BFA">/</tspan> AI · ML</text>
 
     <!-- award -->
-    <rect x="64" y="352" width="360" height="58" rx="15" fill="#0D1117" fill-opacity=".6"/>
-    <rect x="64" y="352" width="360" height="58" rx="15" fill="url(#awardFill)" stroke="url(#awardStroke)" stroke-width="1.2"/>
-    <circle cx="96" cy="381" r="19" fill="#E3B341" fill-opacity=".35" filter="url(#blur6)"/>
-    <circle cx="96" cy="381" r="16" fill="url(#gold)"/>
-    <circle cx="96" cy="381" r="12.5" fill="none" stroke="#7A5200" stroke-opacity=".45" stroke-width="1"/>
-    <text x="96" y="387.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="#5A3B00">1</text>
-    <text x="126" y="377" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="1.4" fill="#F0F6FC">1ST PLACE  ·  NAIN 2.0</text>
-    <text x="126" y="397" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="1.3" fill="#A9BBD1">UNDER GOVT. OF KARNATAKA INITIATIVE</text>
-
-    <rect x="436" y="366" width="146" height="30" rx="15" fill="#161B22" fill-opacity=".7" stroke="#8B5CF6" stroke-opacity=".7"/>
-    <circle cx="454" cy="381" r="3" fill="#A78BFA"/>
-    <text x="466" y="385" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1.2" fill="#D6C9FF">PATENT PENDING</text>
+    <rect x="64" y="358" width="566" height="40" rx="20" fill="#0D1117" fill-opacity=".6"/>
+    <rect x="64" y="358" width="566" height="40" rx="20" fill="#1F6FEB" fill-opacity=".24" stroke="#58A6FF" stroke-opacity=".85" stroke-width="1.2"/>
+    <path d="M90 367.5l3 6.4 7 .9-5.1 4.9 1.3 6.9-6.2-3.4-6.2 3.4 1.3-6.9-5.1-4.9 7-.9z" fill="#79B8FF"/>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" letter-spacing="1.1">
+      <text x="112" y="382.5" xml:space="preserve"><tspan fill="#F0F6FC" font-weight="700">1ST PLACE · NAIN 2.0</tspan><tspan fill="#58A6FF">  |  </tspan><tspan fill="#B9CCE4">INITIATED BY GOVT. OF KARNATAKA</tspan></text>
+    </g>
 
     <!-- languages -->
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
