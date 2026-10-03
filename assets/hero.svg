@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" role="img" aria-labelledby="t d">
+  <title id="t">Krishna Pawar</title>
+  <desc id="d">Full-Stack Development, Software Engineering, AI / ML. 1st Place, NAIN 2.0.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0D14"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="900" cy="235" r="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1F6FEB" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#1F6FEB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="1080" cy="430" r="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowLeft" cx="60" cy="0" r="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1F6FEB" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#1F6FEB" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#58A6FF"/>
+      <stop offset=".5" stop-color="#30363D"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58A6FF"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="fadeGrid" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".55" stop-color="#fff" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#C9D1D9" fill-opacity=".16"/>
+    </pattern>
+    <mask id="gridMask"><rect width="1200" height="460" fill="url(#fadeGrid)"/></mask>
+    <clipPath id="card"><rect width="1200" height="460" rx="24"/></clipPath>
+
+    <!-- plate faces -->
+    <linearGradient id="uiTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#79B8FF" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#1F6FEB" stop-opacity=".35"/>
+    </linearGradient>
+    <linearGradient id="apiTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1F6FEB" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#1F4FB8" stop-opacity=".4"/>
+    </linearGradient>
+    <linearGradient id="dbTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#6D3FD9" stop-opacity=".4"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="460" fill="url(#bg)"/>
+    <rect width="1200" height="460" fill="url(#dots)" mask="url(#gridMask)"/>
+    <rect width="1200" height="460" fill="url(#glowLeft)"/>
+    <rect width="1200" height="460" fill="url(#glowBlue)"/>
+    <rect width="1200" height="460" fill="url(#glowPurple)"/>
+
+    <!-- ============ LEFT: identity ============ -->
+    <circle cx="70" cy="86" r="5" fill="#3FB950">
+      <animate attributeName="opacity" values="1;.35;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="86" y="91" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" letter-spacing="2.2" fill="#8B949E">CSE UNDERGRAD · KLE INSTITUTE OF TECHNOLOGY</text>
+
+    <text font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="98" letter-spacing="-2.5">
+      <tspan x="60" y="192" fill="#F0F6FC">Krishna</tspan>
+      <tspan x="60" y="286" fill="url(#nameGrad)">Pawar</tspan>
+    </text>
+
+    <rect x="64" y="312" width="44" height="3" rx="1.5" fill="url(#nameGrad)"/>
+    <text x="64" y="348" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="500" letter-spacing=".4" fill="#C9D1D9">Full-Stack Development  ·  Software Engineering  ·  AI / ML</text>
+
+    <!-- chips -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1" text-anchor="middle">
+      <rect x="64" y="378" width="214" height="32" rx="16" fill="#1F6FEB" fill-opacity=".22" stroke="#58A6FF" stroke-opacity=".8"/>
+      <path d="M86 386.5l2.3 4.9 5.3.7-3.9 3.7 1 5.3-4.7-2.6-4.7 2.6 1-5.3-3.9-3.7 5.3-.7z" fill="#79B8FF"/>
+      <text x="182" y="398.5" fill="#E6EDF3" font-weight="600">1ST PLACE · NAIN 2.0</text>
+
+      <rect x="290" y="378" width="62" height="32" rx="16" fill="#161B22" fill-opacity=".8" stroke="#30363D"/>
+      <text x="321" y="398.5" fill="#C9D1D9">JAVA</text>
+
+      <rect x="362" y="378" width="72" height="32" rx="16" fill="#161B22" fill-opacity=".8" stroke="#30363D"/>
+      <text x="398" y="398.5" fill="#C9D1D9">REACT</text>
+
+      <rect x="444" y="378" width="88" height="32" rx="16" fill="#161B22" fill-opacity=".8" stroke="#30363D"/>
+      <text x="488" y="398.5" fill="#C9D1D9">NODE.JS</text>
+
+      <rect x="542" y="378" width="114" height="32" rx="16" fill="#161B22" fill-opacity=".8" stroke="#30363D"/>
+      <text x="599" y="398.5" fill="#C9D1D9">TENSORFLOW</text>
+    </g>
+
+    <!-- ============ RIGHT: the stack ============ -->
+    <ellipse cx="900" cy="418" rx="150" ry="16" fill="#1F6FEB" fill-opacity=".35" filter="url(#soft)"/>
+
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7; 0 0" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1; .45 0 .55 1"/>
+
+      <!-- DATABASE plate (cy 337) -->
+      <polygon points="760,337 900,407 900,423 760,353" fill="#4C2BA8" fill-opacity=".75" stroke="#A78BFA" stroke-opacity=".55"/>
+      <polygon points="1040,337 900,407 900,423 1040,353" fill="#6D3FD9" fill-opacity=".6" stroke="#A78BFA" stroke-opacity=".55"/>
+      <polygon points="900,267 1040,337 900,407 760,337" fill="url(#dbTop)" stroke="#A78BFA" stroke-opacity=".9"/>
+
+      <!-- BACKEND plate (cy 271) -->
+      <polygon points="760,271 900,341 900,357 760,287" fill="#143A8C" fill-opacity=".8" stroke="#58A6FF" stroke-opacity=".5"/>
+      <polygon points="1040,271 900,341 900,357 1040,287" fill="#1F4FB8" fill-opacity=".65" stroke="#58A6FF" stroke-opacity=".5"/>
+      <polygon points="900,201 1040,271 900,341 760,271" fill="url(#apiTop)" stroke="#58A6FF" stroke-opacity=".85"/>
+
+      <!-- FRONTEND plate (cy 205) -->
+      <polygon points="760,205 900,275 900,291 760,221" fill="#1B4E9E" fill-opacity=".85" stroke="#79B8FF" stroke-opacity=".6"/>
+      <polygon points="1040,205 900,275 900,291 1040,221" fill="#2B6AD6" fill-opacity=".7" stroke="#79B8FF" stroke-opacity=".6"/>
+      <polygon points="900,135 1040,205 900,275 760,205" fill="url(#uiTop)" stroke="#A5D0FF"/>
+
+      <!-- mini app window drawn on the top plate -->
+      <g transform="matrix(140 70 -140 70 900 135)">
+        <rect x=".1" y=".1" width=".8" height=".8" rx=".035" fill="#0D1117" fill-opacity=".72"/>
+        <rect x=".1" y=".1" width=".8" height=".13" rx=".035" fill="#58A6FF" fill-opacity=".45"/>
+        <circle cx=".16" cy=".165" r=".018" fill="#F0F6FC" fill-opacity=".8"/>
+        <circle cx=".215" cy=".165" r=".018" fill="#F0F6FC" fill-opacity=".5"/>
+        <circle cx=".27" cy=".165" r=".018" fill="#F0F6FC" fill-opacity=".3"/>
+        <rect x=".16" y=".3" width=".3" height=".24" rx=".02" fill="#58A6FF" fill-opacity=".75"/>
+        <rect x=".52" y=".3" width=".32" height=".06" rx=".02" fill="#F0F6FC" fill-opacity=".8"/>
+        <rect x=".52" y=".4" width=".24" height=".05" rx=".02" fill="#F0F6FC" fill-opacity=".35"/>
+        <rect x=".52" y=".48" width=".28" height=".05" rx=".02" fill="#F0F6FC" fill-opacity=".35"/>
+        <rect x=".16" y=".61" width=".2" height=".22" rx=".02" fill="#A78BFA" fill-opacity=".6"/>
+        <rect x=".4" y=".61" width=".2" height=".22" rx=".02" fill="#F0F6FC" fill-opacity=".16"/>
+        <rect x=".64" y=".61" width=".2" height=".22" rx=".02" fill="#F0F6FC" fill-opacity=".16"/>
+      </g>
+
+      <!-- AI model above the stack -->
+      <g stroke="#A78BFA" stroke-opacity=".55" stroke-width="1.2">
+        <path d="M852 62L900 50M852 62L900 77M852 62L900 104M852 92L900 50M852 92L900 77M852 92L900 104M900 50L948 77M900 77L948 77M900 104L948 77"/>
+      </g>
+      <g fill="#0D1117" stroke-width="2">
+        <circle cx="852" cy="62" r="6" stroke="#A78BFA"/>
+        <circle cx="852" cy="92" r="6" stroke="#A78BFA"/>
+        <circle cx="900" cy="50" r="6" stroke="#79B8FF"/>
+        <circle cx="900" cy="77" r="6" stroke="#79B8FF"/>
+        <circle cx="900" cy="104" r="6" stroke="#79B8FF"/>
+        <circle cx="948" cy="77" r="7" stroke="#F0F6FC" fill="#1F6FEB"/>
+      </g>
+      <path d="M900 114V128" stroke="#79B8FF" stroke-opacity=".7" stroke-width="1.4" stroke-dasharray="3 4"/>
+      <circle cx="900" cy="114" r="2.6" fill="#F0F6FC">
+        <animate attributeName="cy" values="112;130" dur="1.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- labels -->
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
+        <g stroke="#8B949E" stroke-opacity=".7" stroke-width="1">
+          <path d="M957 77H1056"/>
+          <path d="M1042 213H1056"/>
+          <path d="M1042 279H1056"/>
+          <path d="M1042 345H1056"/>
+        </g>
+        <g font-size="11.5" letter-spacing="1.8" font-weight="600">
+          <text x="1066" y="75" fill="#C4B5FD">AI / ML</text>
+          <text x="1066" y="211" fill="#A5D0FF">FRONTEND</text>
+          <text x="1066" y="277" fill="#79B8FF">BACKEND</text>
+          <text x="1066" y="343" fill="#C4B5FD">DATABASE</text>
+        </g>
+        <g font-size="10.5" fill="#8B949E">
+          <text x="1066" y="91">TensorFlow</text>
+          <text x="1066" y="227">React.js</text>
+          <text x="1066" y="293">Node · Flask · JSP</text>
+          <text x="1066" y="359">MySQL · MongoDB</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <rect x=".75" y=".75" width="1198.5" height="458.5" rx="23.5" fill="none" stroke="url(#border)" stroke-width="1.5" stroke-opacity=".8"/>
+</svg>
