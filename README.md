@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Krishna Pawar — Full-Stack Development, Software Engineering, AI / ML. 1st Place, NAIN 2.0." />
+<img src="./assets/hero.svg" width="100%" alt="Krishna Pawar — Full-Stack Development, Software Engineering, AI / ML. 1st Place, NAIN 2.0, under a Government of Karnataka initiative." />
 
 <br><br>
 
