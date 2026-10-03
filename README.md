@@ -1,17 +1,16 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,55:161B22,100:1F6FEB&height=120&section=header" width="100%" alt="" />
+<img src="./assets/hero.svg" width="100%" alt="Krishna Pawar — Full-Stack Development, Software Engineering, AI / ML. 1st Place, NAIN 2.0." />
 
-# Hi, I'm Krishna Pawar 👋
+<br><br>
 
-### Full-Stack Development · Software Engineering · AI / ML
+<a href="https://www.linkedin.com/in/krishnapawar05"><img src="https://img.shields.io/badge/LINKEDIN-1F6FEB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:krishnagpawar.in@gmail.com"><img src="https://img.shields.io/badge/EMAIL-161B22?style=for-the-badge&logo=gmail&logoColor=58A6FF" alt="Email" /></a>
+<a href="https://github.com/krishnapawar05?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE%20MY%20CODE-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Explore my code" /></a>
 
-I build full-stack web applications and AI-powered tools, practise DSA in Java, and like turning real problems into software people can actually use.<br>
-Computer Science undergraduate at KLE Institute of Technology, Hubballi.
+<br><br>
 
-<a href="https://www.linkedin.com/in/krishnapawar05"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=58A6FF" alt="LinkedIn" /></a>
-<a href="https://github.com/krishnapawar05"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF" alt="GitHub" /></a>
-<a href="mailto:krishnagpawar.in@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=58A6FF" alt="Email" /></a>
+I build full-stack web applications and AI-powered tools, practise DSA in Java, and like turning real problems into software people can actually use.
 
 </div>
 
@@ -41,7 +40,7 @@ Computer Science undergraduate at KLE Institute of Technology, Hubballi.
 
 **AI-Powered Assistive Technology for Visually Impaired Individuals (SmartVision)**
 
-<img src="https://img.shields.io/badge/Funded%20by-Government%20of%20Karnataka-1F6FEB?style=flat-square" alt="Funded by the Government of Karnataka" /> <img src="https://img.shields.io/badge/Patent-Pending-30363D?style=flat-square" alt="Patent Pending" />
+<img src="https://img.shields.io/badge/Funded%20by-Government%20of%20Karnataka-1F6FEB?style=flat-square" alt="Funded by the Government of Karnataka" /> <img src="https://img.shields.io/badge/Patent-Pending-8B5CF6?style=flat-square" alt="Patent Pending" />
 
 - **What I built:** an AI-powered assistive prototype that helps visually impaired users read text and identify nearby objects.
 - **How it works:** OCR for both digital and handwritten text, Text-to-Speech output, and YOLOv8 for real-time object detection.
@@ -121,9 +120,9 @@ Jain College of Engineering & Technology
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=krishnapawar05&hide_border=true&background=0D1117&ring=1F6FEB&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" width="100%" style="max-width: 520px;" alt="Krishna's GitHub contribution streak" />
+<img src="https://streak-stats.demolab.com?user=krishnapawar05&hide_border=true&background=0D1117&ring=1F6FEB&fire=A78BFA&currStreakLabel=58A6FF&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" width="100%" style="max-width: 520px;" alt="Krishna's GitHub contribution streak" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=krishnapawar05&bg_color=0D1117&color=C9D1D9&line=1F6FEB&point=58A6FF&area=true&area_color=1F6FEB&hide_border=true&radius=8" width="100%" alt="Krishna's GitHub contribution graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=krishnapawar05&bg_color=0D1117&color=C9D1D9&line=1F6FEB&point=A78BFA&area=true&area_color=1F6FEB&hide_border=true&radius=8" width="100%" alt="Krishna's GitHub contribution graph" />
 
 </div>
 
@@ -135,10 +134,9 @@ I'm open to conversations about software engineering, full-stack and AI/ML roles
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/krishnapawar05"><img src="https://img.shields.io/badge/LinkedIn-krishnapawar05-0D1117?style=for-the-badge&logo=linkedin&logoColor=58A6FF" alt="LinkedIn: krishnapawar05" /></a>
-<a href="https://github.com/krishnapawar05"><img src="https://img.shields.io/badge/GitHub-krishnapawar05-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF" alt="GitHub: krishnapawar05" /></a>
-<a href="mailto:krishnagpawar.in@gmail.com"><img src="https://img.shields.io/badge/Email-krishnagpawar.in%40gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=58A6FF" alt="Email: krishnagpawar.in@gmail.com" /></a>
+<a href="https://www.linkedin.com/in/krishnapawar05"><img src="https://img.shields.io/badge/LinkedIn-krishnapawar05-1F6FEB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn: krishnapawar05" /></a>
+<a href="mailto:krishnagpawar.in@gmail.com"><img src="https://img.shields.io/badge/Email-krishnagpawar.in%40gmail.com-161B22?style=for-the-badge&logo=gmail&logoColor=58A6FF" alt="Email: krishnagpawar.in@gmail.com" /></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F6FEB,45:161B22,100:0D1117&height=100&section=footer" width="100%" alt="" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:58A6FF,50:8B5CF6,100:0D1117" width="100%" alt="" />
 
 </div>
